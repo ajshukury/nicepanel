@@ -1,0 +1,65 @@
+.nicepanel-container {
+  position: absolute;
+  z-index: 1000;
+}
+.nicepanel-container.top-right {
+  top: 55px;
+  right: 55px;
+}
+.nicepanel-container.top-center {
+  top: 55px;
+  left: 50%;
+}
+.nicepanel-container.top-left {
+  top: 55px;
+  left: 55px;
+}
+.nicepanel-container.bottom-left {
+  bottom: 55px;
+  left: 55px;
+}
+.nicepanel-container.bottom-right {
+  bottom: 55px;
+  right: 55px;
+}
+.nicepanel-container .nicepanel {
+  width: 280px;
+  font-size: 12px;
+  padding: 15px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.nicepanel-container .nicepanel h3 {
+  font-weight: bold;
+  font-size: 150%;
+  text-transform: capitalize;
+  margin: 0px 0px 4px 0px;
+  text-align: left;
+}
+.nicepanel-container .nicepanel span {
+  margin: 0 auto;
+  display: inline-block;
+}
+.nicepanel-container .nicepanel.general {
+  background-color: rgba(32, 27, 27, 0.86);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  color: #e7e3e3;
+  border: 3px solid #e7e3e3;
+}
+.nicepanel-container .nicepanel.general.alert {
+  font-family: 'open_sanslight';
+  background-color: rgba(96, 7, 7, 0.83);
+}
+.nicepanel-container .nicepanel.general.warning {
+  font-family: 'open_sanslight';
+  background-color: rgba(198, 137, 40, 0.87);
+}
+.nicepanel-container .nicepanel.general.info {
+  font-family: 'open_sanslight';
+  background-color: rgba(65, 151, 199, 0.92);
+}
+.nicepanel-container .nicepanel.style1 {
+  background-color: rgba(198, 137, 40, 0.87);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  color: #e7e3e3;
+}
