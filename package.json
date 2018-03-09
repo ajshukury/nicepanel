@@ -1,0 +1,7 @@
+{
+  "name": "nicepanel",
+  "version": "0.0.1",
+  "description": "Creating nice panels/notifications for your website.",
+  "main": "dist/nicepanel.jquery.js",
+  "browser": "dist/nicepanel.jquery.js"
+}
